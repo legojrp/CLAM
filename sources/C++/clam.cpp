@@ -2,19 +2,34 @@
 #include <iostream>
 #include <string>
 #include <cstring>
-class UserData { 
+class CLAM { 
 public:
-	UserData(std::string path){
+	CLAM(std::string path){
       this->path = path;
     }
-	void writeToProperty(std::string Property, std::string Replacement);
-	std::string readFromProperty(std::string Property);
-	void createSubset(); 
-	void createProperty(std::string Property, std::string Replacement);
+	inline void writeToProperty(std::string Property, std::string Replacement);
+	inline std::string readFromProperty(std::string Property);
+	inline void createSubset(); 
+	inline void createProperty(std::string Property, std::string Replacement);
 private:
 	std::string path;
+	int CLAMfileversion;
+	//.clam
+	inline void clam_writeToProperty(std::string Property, std::string Replacement);
+	inline std::string clam_readFromProperty(std::string Property)
+	
 };
-std::string UserData::readFromProperty(std::string Property){
+//ALL
+/*
+*
+*
+*
+*
+*
+*
+*
+*/
+std::string CLAM::readFromProperty(std::string Property){
   std::ifstream file(this->path);
   std::string text;
   std::string returnstring = "";
@@ -30,7 +45,7 @@ std::string UserData::readFromProperty(std::string Property){
   }
   return returnstring;
 }
-void UserData::writeToProperty(std::string Property, std::string Replacement){
+void CLAM::writeToProperty(std::string Property, std::string Replacement){
 	std::ifstream file(this->path);
   	std::string text, pre, post, changed;    
     int preOrPost = 0;
@@ -54,8 +69,36 @@ void UserData::writeToProperty(std::string Property, std::string Replacement){
     file2 << changed;
     file2.close();
 }
-void createProperty(std::string Property, std::string Replacement){
+void CLAM::createProperty(std::string Property, std::string Replacement){
   	std::ofstream file(this->path);
     file << Property + ": " + Value + "\n";
     file.close();
 }
+
+
+
+
+
+
+
+//CLAM
+/*
+*
+*
+*
+*
+*
+*/
+
+
+
+
+//CLAM2
+/*
+*
+*
+*
+*
+*
+*
+*/
