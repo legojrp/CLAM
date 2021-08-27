@@ -15,15 +15,15 @@ Support is classified in 5 levels, and all features in lower levels are included
 * Level 5: Main language support. (All others languages' methods are based of th(ese, is)language(s).
 
 ### Language Classification
-Will go in format of "language : current level : planned level"
-* C++ : 2 : 5
-* Python : 0 : 4
-* C# : 0 : 2
-* JS : 0 : 0.5 (In local storage)
-* Java : 0 : 2
-* C : 0 : 2
-* PHP : 0 : 1
-* GO : 0  : 1
+Will go in format of "language : current level : planned level : version"
+* C++ : 2 : 5 : 1.2
+* Python : 0 : 4 : 0.1
+* C# : 0 : 2 : 0.1
+* JS : 0 : 0.5 (In local storage) : 0.1
+* Java : 0 : 2 : 0.1
+* C : 0 : 2 : 0.1
+* PHP : 0 : 1 : 0.1
+* GO : 0  : 1 : 0.1
 # .clam (LTS)
 .clam is the file extension used for CLAM. it is currently having long term support (LTS), and is in text encoding, meaning it is similar to a .txt or other text file is. 
 # .clam2 (LTS) (Future)
