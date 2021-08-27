@@ -4,7 +4,7 @@
 #include <cstring>
 class CLAM { 
 public:
-	CLAM(std::string path){
+	CLAM(std::string path, std::string customKey = "$C**M$"){
       this->path = path;
     }
 	inline void writeToProperty(std::string Property, std::string Replacement);
@@ -14,6 +14,7 @@ public:
 private:
 	std::string path;
 	int CLAMfileversion;
+	std::string customKey;
 	//.clam
 	inline void clam_writeToProperty(std::string Property, std::string Replacement);
 	inline std::string clam_readFromProperty(std::string Property)
