@@ -26,4 +26,9 @@ Will go in format of "language : current level : planned level"
 # .clam (LTS)
 .clam is the file extension used for CLAM. it is currently having long term support (LTS), and is in text encoding, meaning it is similar to a .txt or other text file is. 
 # .clam2 (LTS) (Future)
-.clam2 is the next-generation of file, with easier and better syntax. Specifics coming soon. Subsets are a main feature.
+.clam2 is the next-generation of file, with easier and better syntax. Specifics coming soon. Subosets are a main feature.
+# Future
+### All 
+### Level 3 or higher
+### Level 4 or higher
+### Level 5
