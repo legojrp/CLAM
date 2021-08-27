@@ -42,7 +42,7 @@ Will go in format of "language : current level : planned level : version"
 .clam is the 1st-generation and most supported file type of CLAM. It has a syntax like this:  
 ` property :  value `  
 .clam has no subset support. 
-##.clam2
+## .clam2
 .clam2 is the 2nd-generation file type of CLAM. It is currently being developed, and is syntax like this:  
 `property "custom_key" value`  
 .clam2 has a key system for seperation, and is editable based on the top line on a file. If none is present, or there is none specified on creation, or editing, then it defaults to `$C**M$`.  
