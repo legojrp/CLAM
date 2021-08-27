@@ -36,5 +36,5 @@ Will go in format of "language : current level : planned level"
 ### Level 4 or higher
 * .clam to .clam2 conversion.
 ### Level 5
-* Fucjtion additions
+* Function additions
 # Documentation
