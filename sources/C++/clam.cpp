@@ -18,7 +18,8 @@ private:
 	//.clam
 	inline void clam_writeToProperty(std::string Property, std::string Replacement);
 	inline std::string clam_readFromProperty(std::string Property)
-	
+	//.clam2
+	inline std::string clam2_getCustomKey();
 };
 //ALL
 /*
