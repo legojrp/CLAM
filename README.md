@@ -38,3 +38,7 @@ Will go in format of "language : current level : planned level : version"
 ### Level 5
 * Function additions
 # Documentation
+## .clam
+.clam is the 1st-generation and most supported file type of CLAM. It has a syntax like this:  
+~~~*property* : *value*~~~  
+.clam has no subset support.
