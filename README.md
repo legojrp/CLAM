@@ -46,7 +46,9 @@ Will go in format of "language : current level : planned level : version"
 .clam2 is the 2nd-generation file type of CLAM. It is currently being developed, and is syntax like this:  
 `property "custom_key" value`  
 .clam2 has a key system for seperation, and is editable based on the options lines in the file. If none is present, or there is none specified on creation, or editing, then it defaults to `$C**M$`.  
-### options
+### Warning!!!
+.clam2 is designed to be edited only by the class. If you manually edit it, use at your own risk. Any editing may result in corruption or deletion of data. To request a certain feature, please use an issue.
+### Options
 The top of the file has an options.
 #### Seperation 
 `###CODE_KEY="code key"`
