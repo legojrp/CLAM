@@ -30,7 +30,11 @@ Will go in format of "language : current level : planned level"
 .clam2 is the next-generation of file, with easier and better syntax. Specifics coming soon. Subosets are a main feature.
 # Future
 ### All 
+* Bug fixing
 ### Level 3 or higher
+* .clam2
 ### Level 4 or higher
+* .clam to .clam2 conversion.
 ### Level 5
+* Fucjtion additions
 # Documentation
