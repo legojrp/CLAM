@@ -11,7 +11,7 @@ Support is classified in 5 levels, and all features in lower levels are included
 * Level 2: Addition of support of little fixes
 * Level 3: .clam2 support, continual updating
 * Level 4: .clam to .clam2 conversion support
-* Level 5: Main language support.
+* Level 5: Main language support. (All others languages' methods are based of th(ese, is)language(s).
 
 ### Language Classification
 Will go in format of "language : current level : planned level"
@@ -20,5 +20,10 @@ Will go in format of "language : current level : planned level"
 * C# : 0 : 2
 * JS : 0 : 0.5 (In local storage)
 * Java : 0 : 2
-* C : 0 : 0
+* C : 0 : 2
 * PHP : 0 : 1
+* GO : 0  : 1
+# .clam (LTS)
+.clam is the file extension used for CLAM. it is currently having long term support (LTS), and is in text encoding, meaning it is similar to a .txt or other text file is. 
+# .clam2 (LTS) (Future)
+.clam2 is the next-generation of file, with easier and better syntax. Specifics coming soon. Subsets are a main feature.
