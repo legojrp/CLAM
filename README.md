@@ -12,7 +12,7 @@ Support is classified in 5 levels, and all features in lower levels are included
 * Level 2: Addition of support of little fixes
 * Level 3: .clam2 support, continual updating
 * Level 4: .clam to .clam2 conversion support
-* Level 5: Main language support. (All others languages' methods are based of th(ese, is)language(s).
+* Level 5: Main language support. (All others languages' methods are based of these/this language(s).
 
 ### Language Classification
 Will go in format of "language : current level : planned level : version"
