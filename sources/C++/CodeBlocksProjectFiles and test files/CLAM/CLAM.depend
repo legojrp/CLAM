@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1631154605 source:c:\users\darcy\documents\github\clam\sources\c++\clam.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<cstring>
+
+1630109935 source:c:\users\darcy\documents\github\clam\sources\c++\codeblocksprojectfiles and test files\clam\main.cpp
+	<iostream>
+	"../../clam.cpp"
+
+1631154605 c:\users\darcy\documents\github\clam\sources\c++\clam.cpp
+	<fstream>
+	<iostream>
+	<string>
+	<cstring>
+
